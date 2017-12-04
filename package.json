@@ -1,0 +1,23 @@
+{
+  "name": "mr-roboto",
+  "version": "0.1.0-alpha.0",
+  "description": "Utility to handle and parse robots.txt",
+  "author": "José Carneiro",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha ./test/index.js",
+    "test:dev": "nodemon --exec \"mocha ./test/index.js || true\""
+  },
+  "main": "index.js",
+  "dependencies": {
+    "camelcase": "^4.1.0",
+    "normalize-url": "^2.0.0",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1"
+  }
+}
